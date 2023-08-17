@@ -26,6 +26,9 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.heroImg img {
+    height: 300px;
+}
 .content {
     width: 500px;
     margin: 0 auto;
