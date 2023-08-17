@@ -1,51 +1,70 @@
 .inline-block {
-    vertical-align: top;
-    display: inline-block;
+  vertical-align: top;
+  display: inline-block;
 }
 .logo {
-    width: 23%;
-    padding: 1%;
-    text-align:center;
+  width: 23%;
+  padding: 1%;
+  text-align:center;
 }
 nav {
-    width: 73%;
-    padding: 1%;
+  width: 73%;
+  padding: 1%;
 }
 ul {
-    width: 80%;
-    margin-left: auto;
-    display: flex;
-    justify-content: space-between;
+  width: 80%;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
 }
-
-
+body {
+  font-family: 'Montserrat', sans-serif; 
+}
 .heroImg {
-    height: 600px;
-    padding: 20px;
-    background-color:#ebebeb;
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 700px;
+  padding: 20px;
+  background-color:#ebebeb;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .heroImg img {
-    height: 300px;
+    width: 30rem;
+    
 }
 .content {
-    width: 500px;
-    margin: 0 auto;
-
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 2rem;
+  display: flex;
+  column-gap: 3rem;
 }
 footer {
-    background-color: #373738;
+  background-color: #373738;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items:center ;
+  width: 98%;
+  padding: 1%;
 }
-
 header {
-    display:flex
+  display:flex
 }
 li{
-    font-size: 24px;
-    color: #808080;
+  font-size: 24px;
+  color: #808080;
 }
 button {
-    padding: 10px;
-    font-size: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #373738;
+  color: white;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
 }
