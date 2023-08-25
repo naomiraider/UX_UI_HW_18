@@ -111,7 +111,9 @@ button {
   width: 33%;
   align-items: center;
   text-align: center;
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
 .width-33 img {
   max-width: 500px;
@@ -121,6 +123,7 @@ h1 {
   font-size: 60px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
+  border:#808080 1px solid;
 }
 h3 {
   font-size: 36px;
