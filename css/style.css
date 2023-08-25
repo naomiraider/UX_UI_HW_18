@@ -53,6 +53,9 @@ footer {
   padding: 1%;
   margin-top: 20px;
 }
+footer li {
+  color: white;
+}
 header {
   display: flex;
 }
@@ -82,7 +85,9 @@ button {
 }
 .workGrid {
   display: grid;
-  width: 60%;
+  width: 50%;
+  justify-content: center;
+  /* align-items: center; */
   grid-template-columns: auto auto;
   margin-left: 20%;
   margin-right: 20%;
@@ -93,6 +98,7 @@ button {
     "proto1-img proto1"
     "proto2 proto2-img"
     "proto3-img proto3";
+
 }
 
 .workGrid img {
