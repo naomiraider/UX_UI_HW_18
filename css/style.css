@@ -79,7 +79,7 @@ button {
 }
 .flexContainer {
   display: flex;
-  column-gap: 36px;
+  column-gap: 20px;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -98,7 +98,6 @@ button {
     "proto1-img proto1"
     "proto2 proto2-img"
     "proto3-img proto3";
-
 }
 
 .workGrid img {
@@ -114,7 +113,10 @@ button {
   text-align: center;
   margin: 10%;
 }
-
+.width-33 img {
+  max-width: 500px;
+  height: 500px;
+}
 h1 {
   font-size: 60px;
   font-family: "Abril Fatface", cursive;
