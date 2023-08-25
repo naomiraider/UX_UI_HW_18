@@ -10,7 +10,7 @@
 nav {
   width: 73%;
   padding: 1%;
-  font-size: 3rem;
+  font-size: 20px;
 }
 ul {
   width: 80%;
@@ -21,11 +21,11 @@ ul {
 body {
   font-family: "Montserrat", sans-serif;
   width: fit-content;
-  font-size: 2rem;
-  margin-bottom: 5rem;
+  font-size: 20px;
+  margin-bottom: 150px;
 }
 .heroImg {
-  padding: 3rem;
+  padding: 30px;
   background-color: goldenrod;
   background-size: cover;
   background-repeat: no-repeat;
@@ -38,9 +38,9 @@ body {
   align-items: center;
   margin: 0 auto;
   padding: 20px;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
-  column-gap: 3rem;
+  column-gap: 20px;
 }
 footer {
   background-color: #373738;
@@ -51,17 +51,17 @@ footer {
   align-items: center;
   width: 98%;
   padding: 1%;
-  margin-top: 2rem;
+  margin-top: 20px;
 }
 header {
   display: flex;
 }
 li {
-  font-size: 4rem;
+  font-size: 24px;
   color: #808080;
 }
 button {
-  padding: 1rem;
+  padding: 10px;
   font-size: 30px;
   font-weight: 400;
   color: #373738;
@@ -71,11 +71,11 @@ button {
 .column {
   display: flex;
   flex-direction: column;
-  row-gap: 2rem;
+  row-gap: 2px;
 }
 .flexContainer {
   display: flex;
-  column-gap: 2rem;
+  column-gap: 20px;
 }
 .workGrid {
   display: grid;
@@ -84,20 +84,20 @@ button {
   /* column-gap: 5rem; */
   /* row-gap: 2rem; */
   align-items: center;
-  padding: 4rem;
+  padding: 20px;
   align-content: center;
-  grid-template-areas: 
-  "proto1-img proto1"
-  "proto2 proto2-img"
-  "proto3-img proto3";
+  grid-template-areas:
+    "proto1-img proto1"
+    "proto2 proto2-img"
+    "proto3-img proto3";
   align-items: stretch;
 }
 .workGrid img {
   width: 100%;
 }
-.workGrid > div{
-  border-bottom:#808080 2px solid;
-  padding: 2rem;
+.workGrid > div {
+  border-bottom: #808080 1px solid;
+  padding: 20px;
 }
 .width-33 {
   width: 33%;
@@ -106,16 +106,15 @@ button {
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 48px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
 h3 {
-  font-size: 60px;
-  border-color: #808080;
+  font-size: 36px;
 }
 h4 {
-  font-size: 60px;
+  font-size: 36px;
 }
 #proto1 {
   grid-area: proto1;
@@ -130,7 +129,8 @@ h4 {
   grid-area: proto1-img;
 }
 h2 {
-  font-family: "WindSong", cursive;
-  font-size: 90px;
-}
+  font-family:'Birthstone Bounce', cursive;
+  font-size: 48px;
+  display: stretch;
 
+}
