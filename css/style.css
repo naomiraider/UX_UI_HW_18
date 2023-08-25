@@ -3,17 +3,18 @@
   display: inline-block;
 }
 .logo {
-  width: 8%;
   padding: 1%;
-  text-align: center;
+  width: 5%;
+  height: auto;
+  display: inline-flex;
 }
 nav {
-  width: 73%;
+  width: 99%;
   padding: 1%;
   font-size: 20px;
 }
 ul {
-  width: 80%;
+  width: 90%;
   margin-left: auto;
   display: flex;
   justify-content: space-between;
@@ -34,13 +35,14 @@ body {
   width: 40rem;
 } */
 .content {
-  width: 30%;
+  width: 40%;
   align-items: center;
   margin: 0 auto;
   padding: 20px;
-  font-size: 30px;
+  font-size: 24px;
   display: flex;
   column-gap: 36px;
+  text-align: center;
 }
 footer {
   background-color: #373738;
@@ -67,6 +69,7 @@ button {
   color: #373738;
   font-family: "Montserrat", sans-serif;
   width: fit-content;
+  align-content: center;
 }
 .column {
   display: flex;
@@ -76,16 +79,17 @@ button {
 .flexContainer {
   display: flex;
   column-gap: 20px;
+  margin: 5%;
 }
 .workGrid {
   display: grid;
   grid-template-columns: auto auto;
-  margin: 0 30%;
+  margin: 15% 15%;
   /* column-gap: 5rem; */
   /* row-gap: 2rem; */
-  align-items: center;
-  padding: 20px;
-  align-content: center;
+  /* align-items:center */
+  padding: 48px;
+  /* align-content: space-between; */
   grid-template-areas:
     "proto1-img proto1"
     "proto2 proto2-img"
@@ -101,17 +105,18 @@ button {
 }
 .width-33 {
   width: 33%;
-  align-items: center;
-  /* padding: 40rem; */
+  /* align-items: center; */
+  text-align: center;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 60px;
   font-family: "Abril Fatface", cursive;
   text-align: center;
 }
 h3 {
   font-size: 36px;
+  text-align: center;
 }
 h4 {
   font-size: 36px;
@@ -121,6 +126,8 @@ h4 {
 }
 #proto2 {
   grid-area: proto2;
+  text-align: right;
+  /* padding-right: 400px; */
 }
 #proto3 {
   grid-area: proto3;
@@ -130,13 +137,14 @@ h4 {
 }
 #proto2-img {
   grid-area: proto2-img;
+  align-items: right;
 }
 #proto3-img {
   grid-area: proto3-img;
 }
 h2 {
-  font-family: "Birthstone Bounce", cursive;
-  font-size: 48px;
+  font-family: "Parisienne", cursive;
+  font-size: 50px;
   display: flex;
   text-align: center;
   color: white;
