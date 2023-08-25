@@ -31,14 +31,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-/* .heroImg img {
-  width: 40rem;
-} */
+
 .content {
   width: 40%;
   align-items: center;
   margin: 0 auto;
-  padding: 20px;
+  padding: 30px;
   font-size: 24px;
   display: flex;
   column-gap: 36px;
@@ -74,7 +72,7 @@ button {
 .column {
   display: flex;
   flex-direction: column;
-  row-gap: 2px;
+  row-gap: 16px;
 }
 .flexContainer {
   display: flex;
@@ -84,10 +82,10 @@ button {
 }
 .workGrid {
   display: grid;
-  width: 70%;
+  width: 60%;
   grid-template-columns: auto auto;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
   /* column-gap: 5rem; */
   /* row-gap: 2rem; */
   align-content: center;
@@ -95,8 +93,6 @@ button {
     "proto1-img proto1"
     "proto2 proto2-img"
     "proto3-img proto3";
-
-  /* align-content: space-between; */
 }
 
 .workGrid img {
