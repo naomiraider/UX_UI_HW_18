@@ -84,20 +84,21 @@ button {
 }
 .workGrid {
   display: grid;
+  width: 70%;
   grid-template-columns: auto auto;
   margin-left: 10%;
   margin-right: 10%;
   /* column-gap: 5rem; */
   /* row-gap: 2rem; */
-  align-items:center
-  padding: 20px;
-  /* align-content: space-between; */
+  align-content: center;
   grid-template-areas:
     "proto1-img proto1"
     "proto2 proto2-img"
     "proto3-img proto3";
-  /* align-items: stretch; */
+
+  /* align-content: space-between; */
 }
+
 .workGrid img {
   height: 100%;
 }
@@ -140,9 +141,12 @@ h4 {
 }
 #proto2-img {
   grid-area: proto2-img;
+  align-items: center;
 }
+
 #proto3-img {
   grid-area: proto3-img;
+  align-self: center;
 }
 h2 {
   font-family: "Parisienne", cursive;
