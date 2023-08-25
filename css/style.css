@@ -25,7 +25,7 @@ body {
   margin-bottom: 150px;
 }
 .heroImg {
-  padding: 30px;
+  padding: 15px;
   background-color: goldenrod;
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@ body {
   padding: 20px;
   font-size: 30px;
   display: flex;
-  column-gap: 20px;
+  column-gap: 36px;
 }
 footer {
   background-color: #373738;
@@ -93,7 +93,7 @@ button {
   align-items: stretch;
 }
 .workGrid img {
-  width: 100%;
+  height: 100%;
 }
 .workGrid > div {
   border-bottom: #808080 1px solid;
@@ -128,9 +128,16 @@ h4 {
 #proto1-img {
   grid-area: proto1-img;
 }
+#proto2-img {
+  grid-area: proto2-img;
+}
+#proto3-img {
+  grid-area: proto3-img;
+}
 h2 {
-  font-family:'Birthstone Bounce', cursive;
+  font-family: "Birthstone Bounce", cursive;
   font-size: 48px;
-  display: stretch;
-
+  display: flex;
+  text-align: center;
+  color: white;
 }
