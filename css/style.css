@@ -79,17 +79,19 @@ button {
 .flexContainer {
   display: flex;
   column-gap: 36px;
-  margin: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .workGrid {
   display: grid;
   grid-template-columns: auto auto;
-  margin: 15% 15%;
+  margin-left: 10%;
+  margin-right: 10%;
   /* column-gap: 5rem; */
   /* row-gap: 2rem; */
   /* align-items:center */
   padding: 48px;
-  /* align-content: space-between; */
+  align-content: space-between;
   grid-template-areas:
     "proto1-img proto1"
     "proto2 proto2-img"
@@ -138,7 +140,6 @@ h4 {
 }
 #proto2-img {
   grid-area: proto2-img;
-  display: flex;
 }
 #proto3-img {
   grid-area: proto3-img;
