@@ -78,8 +78,8 @@ button {
 }
 .flexContainer {
   display: flex;
-  column-gap: 20px;
-  margin: 5%;
+  column-gap: 36px;
+  margin: 10%;
 }
 .workGrid {
   display: grid;
@@ -105,8 +105,9 @@ button {
 }
 .width-33 {
   width: 33%;
-  /* align-items: center; */
+  align-items: center;
   text-align: center;
+  margin: 10%;
 }
 
 h1 {
@@ -137,7 +138,7 @@ h4 {
 }
 #proto2-img {
   grid-area: proto2-img;
-  align-items: right;
+  display: flex;
 }
 #proto3-img {
   grid-area: proto3-img;
