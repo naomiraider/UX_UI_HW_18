@@ -89,14 +89,14 @@ button {
   margin-right: 10%;
   /* column-gap: 5rem; */
   /* row-gap: 2rem; */
-  /* align-items:center */
-  padding: 48px;
-  align-content: space-between;
+  align-items:center
+  padding: 20px;
+  /* align-content: space-between; */
   grid-template-areas:
     "proto1-img proto1"
     "proto2 proto2-img"
     "proto3-img proto3";
-  align-items: stretch;
+  /* align-items: stretch; */
 }
 .workGrid img {
   height: 100%;
