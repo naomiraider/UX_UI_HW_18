@@ -163,7 +163,7 @@ h2 {
   color: white;
 }
 @media only screen and (max-width:600) {
-  .workGrid (
+  .workGrid {
     grid-template-areas: 
     "proto1-img"
     "proto1"
@@ -171,5 +171,5 @@ h2 {
     "proto2"
     "proto3-img"
     "proto3";
-  )
+  }
 }
