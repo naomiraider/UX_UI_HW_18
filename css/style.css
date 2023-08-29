@@ -162,3 +162,14 @@ h2 {
   text-align: center;
   color: white;
 }
+@media only screen and (max-width:600) {
+  .workGrid (
+    grid-template-areas: 
+    "proto1-img"
+    "proto1"
+    proto2-img"
+    "proto2"
+    "proto3-img"
+    "proto3";
+  )
+}
